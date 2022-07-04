@@ -1,0 +1,51 @@
+.calcula-media  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.disciplinas, .disciplina   {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+}
+
+.area-do-conhecimento    {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.disciplina__p  {
+    text-align: center;
+    width: 50%;
+}
+ 
+.botao  {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+}
+    
+.media  {
+    font-size: 25px;
+}
+
+span    {
+    display: block;
+    margin: 1%;
+    text-align: center;
+}
+    
+@media screen and (min-width: 922px) {
+    .calcula-media  {
+        margin-left: 50%;
+        width: 50%;
+    }
+}
+    
+    
+    

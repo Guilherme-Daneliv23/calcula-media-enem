@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula média ENEM</title>
+    <link rel="stylesheet" href="./assets/css/generico.css">
+    <link rel="stylesheet" href="./assets/css/container.css">
+    <link rel="stylesheet" href="./assets/css/intro.css">
+    <link rel="stylesheet" href="./assets/css/calcula-media.css">
+</head>
+<body>
+    <section class="container">
+        <section class="intro">
+            <h1 class="intro__titulo">Calcula média simples do Enem</h1>
+            <img class="intro__img" src="./assets/img/logo-danelivTI.png" alt="">
+        </section>
+    
+        <section class="calcula-media">
+            <div class="disciplinas">
+                <div class="disciplina">
+                    <input class="area-do-conhecimento" type="number" id="ICN" value="1000">
+                    <p class="disciplina__p">CIÊNCIAS DA NATUREZA</p>
+                </div>
+                <div class="disciplina">
+                    <input class="area-do-conhecimento" type="number" id="ICH" value="1000">
+                    <p class="disciplina__p">CIÊNCIAS HUMANAS</p>
+                </div>
+                <div class="disciplina">
+                    <input class="area-do-conhecimento" type="number" id="ILCT" value="1000">
+                    <p class="disciplina__p">LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS</p>
+                </div>
+                <div class="disciplina">
+                    <input class="area-do-conhecimento" type="number" id="IMT" value="1000">
+                    <p class="disciplina__p">MATEMÁTICA E SUAS TECNOLOGIAS</p>
+                </div>
+                <div class="disciplina">
+                    <input class="area-do-conhecimento" type="number" id="IR" value="1000">
+                    <p class="disciplina__p">REDAÇÃO</p>
+                </div>
+            </div>
+            <div  class="verificacao" >
+                <button class="botao" id="botao">OBTER MÉDIA</button>
+            </div>
+            <span class="media" id="media"></span>
+            <span>Você pode cursar:</span>
+        </section>   
+    </section>
+</body>
+<script src="main.js"></script>
+</html>
