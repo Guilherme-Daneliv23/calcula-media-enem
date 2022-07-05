@@ -18,6 +18,8 @@ Este projeto foi desenvolvido buscando trazer de uma forma simples o cálculo da
 - `Funcionalidade 2:` Calcular e retornar a média simples das suas notas;
 - `Funcionalidade 3:` Mostrar as possíveis aprovações em cursos de graduação.
 
+<p align="center"><img width="250" src="assets/video/gif-for-readme.gif"></p>
+
 <h2>:computer: Linguagens de Programação</h2>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60" heigth="60"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="60" heigth="60"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="60" heigth="60"/>
